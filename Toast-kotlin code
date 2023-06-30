@@ -1,0 +1,8 @@
+private lateinit var btn_SignUp: Button
+
+btnSignUp=findViewById(R.id.btnSignUp)
+
+btnSignUp.setOnClickListener{
+   val intent= Intent(this, SignUp::class.java)ao
+   startActivity(intent)
+   Toast.makeText(this,"Button Clicked",Toast.LENGTH_SHORT).show()
