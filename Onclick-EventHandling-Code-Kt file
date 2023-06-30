@@ -1,0 +1,11 @@
+{
+private lateinit var btn_login: Button
+}
+
+ 
+btnSignUp=findViewById(R.id.btnSignUp)
+
+btnSignUp1.setOnClickListener{
+            val intent= Intent(this, SignUp::class.java)
+            startActivity(intent)
+}
